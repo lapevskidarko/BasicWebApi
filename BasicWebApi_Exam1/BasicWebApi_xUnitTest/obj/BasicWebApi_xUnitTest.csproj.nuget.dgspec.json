@@ -1,0 +1,183 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Darko\\source\\repos\\BasicWebApi_Exam1\\BasicWebApi_xUnitTest\\BasicWebApi_xUnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Darko\\source\\repos\\BasicWebApi_Exam1\\BasicWebApi_Exam1\\BasicWebApi_Exam1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darko\\source\\repos\\BasicWebApi_Exam1\\BasicWebApi_Exam1\\BasicWebApi_Exam1.csproj",
+        "projectName": "BasicWebApi_Exam1",
+        "projectPath": "C:\\Users\\Darko\\source\\repos\\BasicWebApi_Exam1\\BasicWebApi_Exam1\\BasicWebApi_Exam1.csproj",
+        "packagesPath": "C:\\Users\\Darko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darko\\source\\repos\\BasicWebApi_Exam1\\BasicWebApi_Exam1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Negotiate": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Darko\\source\\repos\\BasicWebApi_Exam1\\BasicWebApi_xUnitTest\\BasicWebApi_xUnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darko\\source\\repos\\BasicWebApi_Exam1\\BasicWebApi_xUnitTest\\BasicWebApi_xUnitTest.csproj",
+        "projectName": "BasicWebApi_xUnitTest",
+        "projectPath": "C:\\Users\\Darko\\source\\repos\\BasicWebApi_Exam1\\BasicWebApi_xUnitTest\\BasicWebApi_xUnitTest.csproj",
+        "packagesPath": "C:\\Users\\Darko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darko\\source\\repos\\BasicWebApi_Exam1\\BasicWebApi_xUnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Darko\\source\\repos\\BasicWebApi_Exam1\\BasicWebApi_Exam1\\BasicWebApi_Exam1.csproj": {
+                "projectPath": "C:\\Users\\Darko\\source\\repos\\BasicWebApi_Exam1\\BasicWebApi_Exam1\\BasicWebApi_Exam1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "Moq.AutoMock": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
